@@ -31,9 +31,9 @@ body {
 /* For mobile phones: */
 
 #container {
-  width: 330px;
+  width: 310px;
   height: 500px;
-  margin: 150px 20px 20px 20px;
+  margin: 150px auto 20px;
   padding: 0 15px 0 15px;
   position: relative;
   background-color: #fff;
@@ -44,12 +44,11 @@ body {
 
 #imgWomanMobile {
   margin-top: -110px;
-  text-align: center;
+  margin-left: -30px;
 }
 
 #imgPatternMobile {
-  margin-top: -100px;
-  margin-left: 30px;
+  margin-top: -110px;
 }
 
 h1 {
