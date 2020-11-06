@@ -77,6 +77,10 @@ hr {
   background-color: #fff;
 }
 
+.hidden-answer {
+  text-align: left;
+}
+
 img .arrowButton {
   justify-content: end;
 }
