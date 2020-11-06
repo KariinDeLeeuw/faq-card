@@ -32,7 +32,8 @@ body {
 
 #container {
   width: 310px;
-  height: 500px;
+  height: 450px;
+  /* height: auto; */
   margin: 150px auto 20px;
   padding: 0 15px 0 15px;
   position: relative;
@@ -42,6 +43,7 @@ body {
   box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.21);
 }
 
+/* Image */
 #imgWomanMobile {
   margin-top: -110px;
   margin-left: -30px;
@@ -51,6 +53,7 @@ body {
   margin-top: -110px;
 }
 
+/* Text */
 h1 {
   margin-top: 30px;
 }
@@ -59,4 +62,20 @@ p {
   color: hsl(237, 12%, 33%);
   font-size: 12px;
 }
+
+hr {
+  color: hsl(240, 5%, 91%);
+}
+
+.FAQ-QUESTIONS {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: #fff;
+}
+
+/* .arrowButton {
+  
+} */
+
 /* @media only screen and (min-width: 1440px) */
