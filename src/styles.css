@@ -78,11 +78,26 @@ hr {
 }
 
 .hidden-answer {
+  display: none;
   text-align: left;
+  line-height: 20px;
+}
+
+.hidden-answer.visible {
+  display: block;
+}
+
+.clicked {
+  color: black;
+  font-weight: 700;
 }
 
 img .arrowButton {
   justify-content: end;
+}
+
+.upsidedown {
+  transform: rotate(180deg);
 }
 
 .QAContainer {
