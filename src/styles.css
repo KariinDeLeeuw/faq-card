@@ -63,6 +63,8 @@ body {
 h1 {
   margin-top: 30px;
   margin-bottom: 30px;
+  font-weight: 700;
+  color: #000;
 }
 
 p {
@@ -97,6 +99,7 @@ hr {
 .clicked {
   color: black;
   font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .QAContainer {
@@ -119,9 +122,11 @@ img .arrowButton {
 @media only screen and (min-width: 800px) {
   #container {
     width: 800px;
-    height: auto;
+    height: 400px;
     display: flex;
     flex-direction: row;
+    text-align: left;
+    margin-top: 80px;
   }
 
   /* Image */
@@ -140,7 +145,8 @@ img .arrowButton {
 
   #imgWomanDesktop {
     display: block;
-    margin-left: -150px;
+    margin-top: -50px;
+    margin-left: -180px;
     padding: 90px;
     width: 600px;
     height: 500px;
@@ -148,8 +154,8 @@ img .arrowButton {
 
   #imgPatternDesktop {
     display: block;
-    margin-left: -800px;
-    margin-top: -150px;
+    margin-left: -790px;
+    margin-top: -200px;
     width: 700px;
     height: 700px;
   }
@@ -160,26 +166,12 @@ img .arrowButton {
     margin-bottom: 30px;
   }
 
-  p {
-    color: hsl(237, 12%, 33%);
-    font-size: 12px;
-  }
-
-  hr {
-    color: hsl(240, 5%, 91%);
-  }
-
   /* Questions */
-  .FAQ-QUESTIONS {
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
-    flex-direction: row;
-    border: none;
-    background-color: #fff;
+  #secondContainer {
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 37%;
   }
-
-  #SecondContainer {
-  display: flex;
-  flex-direction: row;
 }
+
+/* animation: cube 1.5s infinite ease-in-out; */
