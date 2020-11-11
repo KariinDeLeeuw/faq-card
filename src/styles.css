@@ -29,11 +29,9 @@ body {
 }
 
 /* For mobile phones: */
-
 #container {
   width: 310px;
   height: auto;
-  /* height: auto; */
   margin: 150px auto 20px;
   padding: 0 15px 0 15px;
   position: relative;
@@ -53,6 +51,14 @@ body {
   margin-top: -110px;
 }
 
+#imgWomanDesktop {
+  display: none;
+}
+
+#imgPatternDesktop {
+  display: none;
+}
+
 /* Text */
 h1 {
   margin-top: 30px;
@@ -68,6 +74,7 @@ hr {
   color: hsl(240, 5%, 91%);
 }
 
+/* Questions */
 .FAQ-QUESTIONS {
   display: flex;
   width: 100%;
@@ -92,6 +99,15 @@ hr {
   font-weight: 700;
 }
 
+.QAContainer {
+  margin: 10px 0 10px 0;
+}
+
+.space {
+  height: 50px;
+}
+
+/* Arrow */
 img .arrowButton {
   justify-content: end;
 }
@@ -100,11 +116,47 @@ img .arrowButton {
   transform: rotate(180deg);
 }
 
-.QAContainer {
-  margin: 10px 0 10px 0;
-}
+@media only screen and (min-width: 800px) {
+  #container {
+    width: 600px;
+    height: auto;
+  }
 
-.space {
-  height: 15px;
+  /* Image */
+  #imgWomanMobile {
+    display: none;
+  }
+
+  #imgPatternMobile {
+    display: none;
+  }
+
+  #imgWomanDesktop {
+    display: block;
+    margin-left: -100px;
+  }
+
+  #imgPatternDesktop {
+    display: block;
+    margin-left: -100px;
+    margin-top: -400px;
+    width: 500px;
+    height: 500px;
+  }
+
+  /* Text */
+  h1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+
+  p {
+    color: hsl(237, 12%, 33%);
+    font-size: 12px;
+  }
+
+  hr {
+    color: hsl(240, 5%, 91%);
+  }
 }
-/* @media only screen and (min-width: 1440px) */
