@@ -110,6 +110,7 @@ hr {
   color: black;
   font-weight: 700;
   margin-bottom: 5px;
+  outline: none;
 }
 
 .QAContainer {
