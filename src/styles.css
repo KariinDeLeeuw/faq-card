@@ -74,6 +74,7 @@ h1 {
 p {
   color: hsl(237, 12%, 33%);
   font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 p:hover {
@@ -175,7 +176,6 @@ img .arrowButton {
 
   #imgPatternDesktop {
     display: block;
-    /* position: fixed; */
     position: absolute;
     z-index: 2;
     margin-left: -370px;
