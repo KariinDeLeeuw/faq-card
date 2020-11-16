@@ -59,6 +59,10 @@ body {
   display: none;
 }
 
+#illustrationBox {
+  display: none;
+}
+
 /* Text */
 h1 {
   margin-top: 30px;
@@ -70,6 +74,11 @@ h1 {
 p {
   color: hsl(237, 12%, 33%);
   font-size: 12px;
+}
+
+p:hover {
+  color: #f47c57;
+  font-weight: 900;
 }
 
 hr {
@@ -143,8 +152,20 @@ img .arrowButton {
     display: none;
   }
 
+  #illustrationBox {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 150px;
+    height: 140px;
+    margin-top: 170px;
+    margin-left: -90px;
+  }
+
   #imgWomanDesktop {
     display: block;
+    position: relative;
+    z-index: 1;
     margin-top: -50px;
     margin-left: -180px;
     padding: 90px;
@@ -154,8 +175,11 @@ img .arrowButton {
 
   #imgPatternDesktop {
     display: block;
-    margin-left: -790px;
-    margin-top: -200px;
+    /* position: fixed; */
+    position: absolute;
+    z-index: 2;
+    margin-left: -370px;
+    margin-top: -180px;
     width: 700px;
     height: 700px;
   }
@@ -169,9 +193,6 @@ img .arrowButton {
   /* Questions */
   #secondContainer {
     margin-top: 60px;
-    margin-left: 90px;
     width: 37%;
   }
 }
-
-/* animation: cube 1.5s infinite ease-in-out; */
