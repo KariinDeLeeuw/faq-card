@@ -77,11 +77,6 @@ p {
   font-family: "Kumbh Sans", sans-serif;
 }
 
-p:hover {
-  color: #f47c57;
-  font-weight: 900;
-}
-
 hr {
   color: hsl(240, 5%, 91%);
 }
@@ -94,6 +89,11 @@ hr {
   flex-direction: row;
   border: none;
   background-color: #fff;
+}
+
+.question-text p:hover {
+  color: #f47c57;
+  font-weight: 900;
 }
 
 .hidden-answer {
