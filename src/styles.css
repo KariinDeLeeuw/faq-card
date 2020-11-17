@@ -26,8 +26,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
-  z-index: -2;
 }
 
 /* For mobile phones: */
@@ -36,7 +34,6 @@ body {
   height: auto;
   margin: 150px auto 20px;
   padding: 0 15px 0 15px;
-  position: relative;
   background-color: #fff;
   border-radius: 15px;
   text-align: center;
@@ -135,7 +132,7 @@ img .arrowButton {
 @media only screen and (min-width: 800px) {
   #container {
     width: 800px;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -172,6 +169,7 @@ img .arrowButton {
     z-index: 1;
     margin-top: -50px;
     margin-left: -180px;
+    margin-bottom: -50px;
     padding: 90px;
     width: 600px;
     height: 500px;
