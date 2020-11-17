@@ -26,6 +26,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
+  z-index: -2;
 }
 
 /* For mobile phones: */
@@ -178,7 +180,7 @@ img .arrowButton {
   #imgPatternDesktop {
     display: block;
     position: absolute;
-    z-index: 2;
+    z-index: -1;
     margin-left: -370px;
     margin-top: -180px;
     width: 700px;
