@@ -90,7 +90,7 @@ hr {
   background-color: #fff;
 }
 
-.question-text p:hover {
+.question-text:hover {
   color: #f47c57;
   font-weight: 900;
 }
