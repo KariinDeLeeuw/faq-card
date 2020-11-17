@@ -12,11 +12,7 @@
 }
 
 body {
-  height: 100%;
   font-family: "Kumbh Sans", sans-serif;
-  display: block;
-  margin: 20px auto;
-  align-items: center;
   background-image: linear-gradient(
     180deg,
     hsl(273, 75%, 66%) 0%,
@@ -26,6 +22,11 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 /* For mobile phones: */
