@@ -93,6 +93,7 @@ hr {
 .question-text:hover {
   color: #f47c57;
   font-weight: 900;
+  cursor: pointer;
 }
 
 .hidden-answer {
